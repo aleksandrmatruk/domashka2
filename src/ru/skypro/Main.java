@@ -27,7 +27,7 @@ public class Main {
         int milk100ml = 105;
         int iceCream = 100;
         int egg = 70;
-        int breakfastWeight = banana * 5 + milk100ml * 2 + iceCream * 2 + egg * 4;
+        float breakfastWeight = banana * 5 + milk100ml * 2 + iceCream * 2 + egg * 4;
         System.out.println("Вес завтрака " + breakfastWeight + " грамм");
         float breakfastWeightkg = breakfastWeight / 1000;
         System.out.println("Вес завтрака в кг составляет " + breakfastWeightkg + " кг");
